@@ -1,0 +1,9 @@
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Web\obj\Debug\net9.0\AgenciaTurismo.Web.csproj.AssemblyReference.cache
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Web\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Web\obj\Debug\net9.0\AgenciaTurismo.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Web\obj\Debug\net9.0\AgenciaTurismo.Web.AssemblyInfoInputs.cache
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Web\obj\Debug\net9.0\AgenciaTurismo.Web.AssemblyInfo.cs
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Web\obj\Debug\net9.0\AgenciaTurismo.Web.csproj.CoreCompileInputs.cache
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Web\obj\Debug\net9.0\AgenciaTurismo.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Web\obj\Debug\net9.0\AgenciaTurismo.Web.RazorAssemblyInfo.cache
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Web\obj\Debug\net9.0\AgenciaTurismo.Web.RazorAssemblyInfo.cs

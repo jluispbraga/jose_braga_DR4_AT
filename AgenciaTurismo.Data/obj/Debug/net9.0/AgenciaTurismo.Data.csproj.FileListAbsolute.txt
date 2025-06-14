@@ -1,0 +1,17 @@
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\bin\Debug\net9.0\AgenciaTurismo.Data.deps.json
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\bin\Debug\net9.0\AgenciaTurismo.Data.runtimeconfig.json
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\bin\Debug\net9.0\AgenciaTurismo.Data.dll
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\bin\Debug\net9.0\AgenciaTurismo.Data.pdb
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\bin\Debug\net9.0\AgenciaTurismo.Domain.dll
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\bin\Debug\net9.0\AgenciaTurismo.Domain.pdb
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\AgenciaTurismo.Data.csproj.AssemblyReference.cache
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\AgenciaTurismo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\AgenciaTurismo.Data.AssemblyInfoInputs.cache
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\AgenciaTurismo.Data.AssemblyInfo.cs
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\AgenciaTurismo.Data.csproj.CoreCompileInputs.cache
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\AgenciaT.66607152.Up2Date
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\AgenciaTurismo.Data.dll
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\refint\AgenciaTurismo.Data.dll
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\AgenciaTurismo.Data.pdb
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\AgenciaTurismo.Data.genruntimeconfig.cache
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Data\obj\Debug\net9.0\ref\AgenciaTurismo.Data.dll

@@ -1,0 +1,29 @@
+﻿@page
+@model DescontoModel
+@{
+    ViewData["Title"] = "Calcular Desconto";
+}
+
+<h1>Calcular Desconto de 10 %</h1>
+
+<form method="post" class="mt-4">
+    <div class="mb-3">
+        <label asp-for="PrecoOriginal" class="form-label">Preço original (R$)</label>
+        <input asp-for="PrecoOriginal" class="form-control" />
+        <span asp-validation-for="PrecoOriginal" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Calcular</button>
+</form>
+
+@if (Model.PrecoComDesconto is not null)
+{
+    <div class="alert alert-success mt-4">
+        Valor com 10 % de desconto: <strong>R$ @Model.PrecoComDesconto:F2</strong>
+    </div>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

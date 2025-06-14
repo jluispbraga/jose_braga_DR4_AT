@@ -1,0 +1,24 @@
+﻿@page
+@model AgenciaTurismo.Web.Pages.Reserva.CalcularModel
+@{
+    ViewData["Title"] = "Calcular Reserva";
+}
+
+<h2>Calcular Valor Total da Reserva</h2>
+
+<form method="post">
+    <div>
+        <label for="Diarias">Número de diárias:</label>
+        <input asp-for="Diarias" />
+    </div>
+    <div>
+        <label for="PrecoPorDia">Preço por diária:</label>
+        <input asp-for="PrecoPorDia" />
+    </div>
+    <button type="submit">Calcular</button>
+</form>
+
+@if (Model.Total > 0)
+{
+    <p><strong>Valor Total:</strong> R$ @Model.Total</p>
+}
