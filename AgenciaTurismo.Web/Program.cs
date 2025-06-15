@@ -1,5 +1,5 @@
 using AgenciaTurismo.Data;
-using AgenciaTurismo.Domain.Service;
+using AgenciaTurismo.Domain.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +9,7 @@ builder.Services.AddDbContext<AgenciaTurismoContext>(options =>
 
 builder.Services.AddRazorPages();
 
-builder.Services.AddSingleton<LogService>();
+builder.Services.AddScoped<LoggerService>();
 
 var app = builder.Build();
 

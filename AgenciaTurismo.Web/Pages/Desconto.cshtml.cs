@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using AgenciaTurismo.Domain;
-using AgenciaTurismo.Domain.Service;
+using AgenciaTurismo.Domain.Services;
 
 public class DescontoModel : PageModel
 {

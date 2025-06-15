@@ -4,7 +4,7 @@ using System.IO;
 
 namespace AgenciaTurismo.Domain.Services
 {
-    public static class Logger
+    public class LoggerService
     {
         private static List<string> _memoryLogs = new();
 

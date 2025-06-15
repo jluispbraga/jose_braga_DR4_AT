@@ -5,6 +5,7 @@ C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Domain\obj\Debug
 C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Domain\obj\Debug\net9.0\AgenciaTurismo.Domain.AssemblyInfoInputs.cache
 C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Domain\obj\Debug\net9.0\AgenciaTurismo.Domain.AssemblyInfo.cs
 C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Domain\obj\Debug\net9.0\AgenciaTurismo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Domain\obj\Debug\net9.0\AgenciaTurismo.Domain.sourcelink.json
 C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Domain\obj\Debug\net9.0\AgenciaTurismo.Domain.dll
 C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Domain\obj\Debug\net9.0\refint\AgenciaTurismo.Domain.dll
 C:\Users\jlbraga\RiderProjects\jose_braga_DR4_AT\AgenciaTurismo.Domain\obj\Debug\net9.0\AgenciaTurismo.Domain.pdb

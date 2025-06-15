@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc;
-using AgenciaTurismo.Domain.Service;
+using AgenciaTurismo.Domain.Services;
 
 namespace AgenciaTurismo.Web.Pages.Reserva
 {
