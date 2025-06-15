@@ -1,13 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using AgenciaTurismo.Domain.Entities;
+using AgenciaTurismo.Data;
 
 namespace AgenciaTurismo.Web.Pages.Hoteis;
 
 public class HotelDetailsModel : PageModel
 {
-    public Hotel? Hotel { get; set; }
+    private readonly AgenciaTurismoContext _context;
 
+    public Hotel? Hotel { get; set; }
+    
+    public HotelDetailsModel(AgenciaTurismoContext context)
+    {
+        _context = context;
+    }
+    
     public void OnGet(int id)
     {
         var listaHoteis = new List<Hotel>

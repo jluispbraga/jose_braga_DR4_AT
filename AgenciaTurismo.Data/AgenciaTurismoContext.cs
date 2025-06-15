@@ -17,12 +17,12 @@ namespace AgenciaTurismo.Data
 		public DbSet<Endereco> Enderecos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        {   
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<PacoteTuristico>()
                 .HasMany(p => p.Reservas)
                 .WithOne(r => r.PacoteTuristico)
                 .HasForeignKey(r => r.PacoteTuristicoId);
-
             modelBuilder.Entity<Reserva>()
                 .HasOne(r => r.Cliente)
                 .WithMany(c => c.Reservas)

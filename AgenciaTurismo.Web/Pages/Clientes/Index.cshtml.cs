@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using AgenciaTurismo.Data;
+﻿using AgenciaTurismo.Data;
 using AgenciaTurismo.Domain.Entities;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AgenciaTurismo.Web.Pages.Clientes;
 

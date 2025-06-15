@@ -24,20 +24,15 @@ namespace AgenciaTurismo.Web.Pages.Notas
         public void OnGet(string? fileName)
         {
             var dir = Path.Combine(_env.WebRootPath, "files");
+
+            if (!Directory.Exists(dir))
+                Directory.CreateDirectory(dir);
+
             ArquivosNotas = Directory.GetFiles(dir, "*.txt")
                 .Select(Path.GetFileName)
                 .Where(name => name != null)
-                .Cast<string>() 
+                .Cast<string>()
                 .ToList();
-
-            if (!string.IsNullOrEmpty(fileName))
-            {
-                var caminhoArquivo = Path.Combine(dir, fileName);
-                if (System.IO.File.Exists(caminhoArquivo))
-                {
-                    ConteudoNotaSelecionada = System.IO.File.ReadAllText(caminhoArquivo);
-                }
-            }
         }
 
         public IActionResult OnPost()
