@@ -1,11 +1,20 @@
-﻿namespace AgenciaTurismo.Domain
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace AgenciaTurismo.Domain.Entities
 {
     public class Cliente
     {
         public int Id { get; set; }
-        public string Nome { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
 
-        public List<Reserva> Reservas { get; set; } = new();
+        [Required, StringLength(150)]
+        public string Nome { get; set; } = string.Empty;
+
+        [Required, StringLength(150)]
+        public string Email { get; set; } = string.Empty;
+		
+		public bool IsDeleted { get; set; } = false;
+		
+        public ICollection<Reserva> Reservas { get; set; } = new List<Reserva>();
     }
 }

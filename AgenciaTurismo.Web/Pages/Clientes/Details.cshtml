@@ -1,0 +1,11 @@
+﻿@page "{id:int}"
+@model AgenciaTurismo.Web.Pages.Clientes.DetailsModel
+
+<h2>Detalhes do Cliente</h2>
+
+<dl>
+    <dt>Nome</dt><dd>@Model.Cliente.Nome</dd>
+    <dt>Email</dt><dd>@Model.Cliente.Email</dd>
+</dl>
+
+<a asp-page="./Index">Voltar</a>

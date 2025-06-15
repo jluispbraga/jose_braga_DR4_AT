@@ -1,0 +1,12 @@
+﻿@page "{id:int}"
+@model AgenciaTurismo.Web.Pages.Clientes.DeleteModel
+
+<h2>Excluir Cliente</h2>
+
+<p>Tem certeza que deseja excluir o cliente: <strong>@Model.Cliente.Nome</strong>?</p>
+
+<form method="post">
+    <button type="submit">Confirmar Exclusão</button>
+</form>
+
+<a asp-page="./Index">Cancelar</a>

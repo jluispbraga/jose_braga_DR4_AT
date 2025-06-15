@@ -1,0 +1,33 @@
+﻿@page
+@model AgenciaTurismo.Web.Pages.Hoteis.CreateHotelModel
+@{
+    ViewData["Title"] = "Cadastrar Hotel";
+}
+
+<h1>Cadastrar Hotel</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Hotel.Nome"></label>
+        <input asp-for="Hotel.Nome" class="form-control"/>
+        <span asp-validation-for="Hotel.Nome" class="text-danger"></span>
+    </div>
+
+    <h3>Endereço</h3>
+    <div class="form-group">
+        <label asp-for="Hotel.Endereco.Rua"></label>
+        <input asp-for="Hotel.Endereco.Rua" class="form-control"/>
+        <span asp-validation-for="Hotel.Endereco.Rua" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Hotel.Endereco.Cidade"></label>
+        <input asp-for="Hotel.Endereco.Cidade" class="form-control"/>
+        <span asp-validation-for="Hotel.Endereco.Cidade" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar Hotel</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"/>
+}

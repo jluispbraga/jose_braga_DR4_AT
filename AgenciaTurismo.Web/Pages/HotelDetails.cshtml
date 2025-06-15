@@ -1,0 +1,22 @@
+﻿@page "{id:int}"
+@model AgenciaTurismo.Web.Pages.Hoteis.HotelDetailsModel
+
+<h2>Detalhes do Hotel</h2>
+
+@if (Model.Hotel is null)
+{
+    <p>Hotel não encontrado.</p>
+}
+else
+{
+    <dl class="row">
+        <dt class="col-sm-2">Nome:</dt>
+        <dd class="col-sm-10">@Model.Hotel.Nome</dd>
+
+        <dt class="col-sm-2">Rua:</dt>
+        <dd class="col-sm-10">@Model.Hotel.Endereco.Rua</dd>
+
+        <dt class="col-sm-2">Cidade:</dt>
+        <dd class="col-sm-10">@Model.Hotel.Endereco.Cidade</dd>
+    </dl>
+}

@@ -1,0 +1,36 @@
+﻿@page
+@model AgenciaTurismo.Web.Pages.Notas.ViewNotesModel
+@{
+    ViewData["Title"] = "Anotações";
+}
+
+<h2>Gerenciador de Notas</h2>
+
+<form method="post">
+    <textarea asp-for="NovaNota" rows="5" class="form-control"></textarea>
+    <span asp-validation-for="NovaNota" class="text-danger"></span>
+    <button class="btn btn-success mt-2">Salvar Nota</button>
+</form>
+
+<h3 class="mt-4">Notas Salvas</h3>
+<ul>
+    @foreach (var arquivo in Model.ArquivosNotas)
+    {
+        <li>
+            <a asp-page="./ViewNotes" asp-route-fileName="@arquivo">@arquivo</a>
+        </li>
+    }
+</ul>
+
+@if (Model.ConteudoNotaSelecionada is not null)
+{
+    <div class="card mt-3">
+        <div class="card-body">
+            <pre>@Model.ConteudoNotaSelecionada</pre>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"/>
+}

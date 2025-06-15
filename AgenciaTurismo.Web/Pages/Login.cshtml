@@ -1,0 +1,19 @@
+﻿@page
+@model AgenciaTurismo.Web.Pages.LoginModel
+
+<form method="post">
+    <div>
+        <label>Usuário:</label>
+        <input asp-for="Username" />
+    </div>
+    <div>
+        <label>Senha:</label>
+        <input asp-for="Password" type="password" />
+    </div>
+    <button type="submit">Entrar</button>
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <p class="text-danger">@Model.ErrorMessage</p>
+    }
+</form>
